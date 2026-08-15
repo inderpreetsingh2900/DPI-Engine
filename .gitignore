@@ -1,3 +1,4 @@
+# Compiled binaries
 *.exe
 *.out
 *.o
@@ -6,10 +7,17 @@
 *.so
 *.dll
 
+# Packet capture files
+*.pcap
+
+# Build directories
 build/
 bin/
+.dist/
 
+# IDE / editor files
 .vscode/
 .idea/
 
+# Logs
 *.log
